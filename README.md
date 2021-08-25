@@ -9,7 +9,7 @@ App.css is the file containing all css properties with responsive layout. Added 
 
 Used folder structure domainName/ components and /store to extend the existing functionality
 
-Used components directory for Search, Movie List , Table Grid Components
+Used components directory for Search, Movie List,Table Grid Components using React and React-Redux Hooks.
 Used store directory for actions,reducers,sagas, store and types files.
 
 Types.ts file contains different types for app.

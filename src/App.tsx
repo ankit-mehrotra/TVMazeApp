@@ -42,7 +42,7 @@ function App() {
     <div className="container">
       <SearchInput handleChange={handleChange} search={search}/>
       {loading && <h1>Loading</h1>}
-      {showList.length === 0 && <h3> No Result to Display...</h3>}
+      {search.length === 0 && <h3> No Result to Display...</h3>}
       {error && <h2>Something went wrong</h2>}
       <MovieList handleClick={handleClick} showList={showList} search={search}/>
       <TableGrid listItem={tableList.listItem} handleDelete={handleDelete} />
