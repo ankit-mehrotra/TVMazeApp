@@ -21,12 +21,13 @@ Used axios library to fetch the data from tvamaze url
 
 ## Functionality
 
-On Initial load the Movie List will appear blank and as user types in the search box grid will appear.
-The user has option to Add an movie to Table using Add button
-On clicking of a Image of Movie List , the user is navigated to new url.
-On hovering of any Movie List item the name of movie and Genre is shown to user.
-Once a movie is added to the table it cannot be re-added
-Table Grid has functionality to delete a particular row on click of delete button.
+On Initial load the Movie List will appear blank and as user types in the search box Movie List will appear if API has search result for it.\
+If the API fails for some reason, the text will appear "An error Occurred while processing your request".\
+The user has option to Add an movie to Table using Add button\
+On clicking of a Image of Movie List , the user is navigated to new url.\
+On hovering of any Movie List item the name of movie and Genre is shown to user.\
+Once a movie is added to the table it cannot be re-added\
+Table Grid has functionality to delete a particular row on click of delete button.\
 
 ## Available Scripts
 
