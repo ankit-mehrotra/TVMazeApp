@@ -1,6 +1,6 @@
 # Application description
 
-This project was bootstrapped with Create React App.
+This project was bootstrapped with Create React App with typescript template.
 
 index.tsx is the entry point hooking redux into the App
 
