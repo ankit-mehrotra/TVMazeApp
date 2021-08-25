@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins' ,helvetica neue,Helvetica,Roboto,Arial,sans-serif;;
+}
+
+.search-box{
+  width: 38%;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  margin: 10px;
+  border: 2px solid #3c948b;
+  box-shadow: 2px 2px #3c948b;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1em;
+  cursor: pointer;
+}
+
+.card-details p {
+  margin: 0;
+}
+.card-details{
+  background-color: rgb(60, 148, 139);
+  text-align: center;
+}
+
+
+.btn{
+  border: none;
+  color: #fff;
+  background-color: #000;
+  padding: 0.5em;
+  margin: 5px;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 5px;
+} 
+
+.card-name {
+  font-weight: 600;
+  max-width: 150px;
+  text-overflow: ellipsis;   
+  overflow:hidden;    
+  white-space:nowrap;   
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+}
+
+#data-grid, th, td {
+   border: 1px solid #ccc;
+   padding: 5px;
+   text-align: center;
+   cursor: pointer;
+}
+
+#data-grid{
+  margin-top: 1em;
+}
+
+.table-img {
+  width: 50px;
+  height: 50px;
+}
+
+#data-grid tr:nth-child(even){background-color: #f2f2f2;}
+
+#data-grid tr:hover {background-color: #f2f2f1;}
+
+.list-items {
+  min-height: 400px;
+}
+
+th {
+  background-color: rgb(60, 148, 139);
+  color: #fff
+}
+#data-grid{
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 1em;
+}
+
+/* Responsive Layout */
+
+@media screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
